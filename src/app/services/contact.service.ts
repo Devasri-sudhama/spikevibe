@@ -12,14 +12,14 @@ export class ContactService {
 
   public sendContactForm(body: any): Observable<any> {
  
-    const REST_API_SERVER = environment.contactApi
+    const contactUrl = environment.contactApi
     
     let result: any
     var reqHeader = new HttpHeaders({
       'Content-Type': 'application/json',
     });
     
-    return this.http.put(REST_API_SERVER, body, { headers: reqHeader }).pipe(map((data) => {
+    return this.http.put(contactUrl, body, { headers: reqHeader }).pipe(map((data) => {
       return data;
     }),
       catchError((err) => {
