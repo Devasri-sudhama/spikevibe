@@ -35,8 +35,7 @@ export class AppComponent {
       "customer_message": message
 
     };
-    // console.log(body);
-    // var data = JSON.stringify(body)
+    
     if (!this.validateEmail(email)) {
       this.showEmailError = true;
       setTimeout(() => {
