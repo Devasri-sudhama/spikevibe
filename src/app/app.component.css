@@ -1,0 +1,234 @@
+#navbarSupportedContent {
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: rgb(255, 255, 255);
+  position: static;
+}
+
+.whitepapers {
+  padding-left: 5%;
+  font-family: auto;
+  font-size: revert;
+
+}
+
+.success {
+  font-size: 25px;
+}
+
+.whitepapers-content {
+  font-size: 15px;
+  padding-top: 5%;
+  font-weight: initial;
+  color: gray;
+  letter-spacing: 1px;
+}
+
+.whiteheader-title {
+  font-size: 2em;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.white-papers-form {
+
+  font-weight: initial;
+  padding-top: 10%;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.bg-news {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+39,a1dbff+98 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 39%, #a1dbff 98%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 39%, #a1dbff 98%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f0f9ff 39%, #a1dbff 98%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#a1dbff', GradientType=0);
+  /* IE6-9 */
+
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+input::placeholder {
+  font-size: 12px;
+  padding-left: 5px;
+  ;
+}
+
+input[type="text"],
+textarea {
+  border-radius: 25px;
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  color: #00090e;
+  background-color: #009dff;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 4px 14px;
+  font-size: 15px;
+  font-family: serif;
+  color: #ffffff;
+  border-radius: 10px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+9,9fd8ef+51,2ab0ed+100 */
+  background: #e4f5fc;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e4f5fc 0%, #bfe8f9 9%, #9fd8ef 51%, #2ab0ed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e4f5fc 0%, #bfe8f9 9%, #9fd8ef 51%, #2ab0ed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e4f5fc 0%, #bfe8f9 9%, #9fd8ef 51%, #2ab0ed 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4f5fc', endColorstr='#2ab0ed', GradientType=0);
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+  transition: 0.5s;
+  /* IE6-9 */
+
+}
+
+.leftDiv {
+
+  color: #000;
+
+  width: 50%;
+  float: left;
+
+
+}
+
+.showEmailError {
+  color: red
+}
+
+.demo {
+  padding-top: 10px;
+}
+
+.leftDiv-demo {
+
+  color: #000;
+  background-color: #c3dde8;
+
+  width: 50%;
+  float: left;
+
+
+}
+
+.rightDiv {
+
+  color: #000;
+
+  width: 50%;
+  float: right;
+}
+
+.header-img {
+  width: 76%;
+  height: 100%;
+}
+
+.card-holder {
+  margin: 2em 0;
+}
+
+span {
+  font-size: 12px;
+  letter-spacing: normal;
+}
+
+.demo-content {
+  font-size: 15px;
+  padding-top: 5%;
+  font-weight: initial;
+  width: 100%;
+  padding-left: 19%;
+  padding-right: 19%;
+  padding-top: 22%;
+  color: gray;
+  letter-spacing: 1px;
+}
+.demo-title{
+  font-weight:900;
+  font-style: bold;
+  color: #000;
+  font-size:2em;
+  font-family: sans-serif;
+}
+.topnav-centered{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-button {
+  width: 50%;
+  height: 45px;
+  padding-top: 5%;
+  padding-left: 19%;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: white;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+      .btn-grad {
+         
+         padding: 15px 40px;
+         text-align: center;
+         text-transform: uppercase;
+         transition: 0.5s;
+         background-size: 200% auto;
+         color: white;            
+         box-shadow: 0 0 20px #eee;
+         border-radius: 10px;
+         /* display: flex; */
+         margin-top: 25px;
+       }
+
+       .btn-grad:hover {
+         background-position: right center; /* change the direction of the change here */
+         color: #fff;
+         text-decoration: none;
+       }
+      
+
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  height: 4em;
+  width: 64em;
+  padding: 0.5em 1em;
+  /* border-radius: 0.25em; */
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: -2px;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+
+.card .subtle {
+  color: #000;
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
