@@ -12,7 +12,9 @@
 .list-unstyled{
     padding-top: 15%;
 }
-
+.right-content{
+    padding-right: 12px;
+}
 .footer-social-icon  i{
     height: 40px;
     width: 40px;
